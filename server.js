@@ -37,16 +37,16 @@ app.use(passwordProctected)
         res.send(`<!DOCTYPE html>
         <html>
         <head>
-        <link rel="stylesheet" href="css/site.css">
+        <link rel="stylesheet" href="/css/site.css">
           <meta charset="UTF-8">
           <meta name="viewport" content="width=device-width, initial-scale=1.0">
-          <title>Simple To-Do App</title>
+          <title>favFoodapp</title>
           <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
         </head>
         <body>
           <div class="container">
             <h1 class="display-4 text-center py-1">favFood-App</h1>
-            
+            <div id="center">
             <div class="jumbotron p-3 shadow-sm">
               <form  id="create-form" action="/create" method="POST">
                 <div class="d-flex align-items-center">
@@ -60,6 +60,7 @@ app.use(passwordProctected)
            
             </ul>
             
+          </div>
           </div>
           <script>
           let items = ${JSON.stringify(items)}
