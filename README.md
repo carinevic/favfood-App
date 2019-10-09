@@ -1,7 +1,7 @@
 # fAVFOOD-APP
 
  **Purpose of the app:**
- This is a really simple app where users get to input thier favourite food, and it give them an option to edit the list or if there was a typo an option to correct. and also the delete button. if users want to remove a particular meal from the list.
+ This is a really simple app where users get to input their favourite food, and it give them an option to edit the list or if there was a typo an option to correct. and also the delete button. if users want to remove a particular meal from the list.
 
 **How to use the app:**
 Users need to sign in with a username and password . 
